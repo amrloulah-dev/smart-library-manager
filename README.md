@@ -1,110 +1,124 @@
-# Smart Library Manager
+<div align="center">
 
-A professional, offline-first Flutter application designed for advanced library and bookstore management. This system integrates Point of Sale (POS) operations, comprehensive inventory control, and AI-driven business intelligence to optimize stock levels and financial performance.
+# 📚 Smart Library Manager
+### Offline-First & AI-Powered ERP Solution for Bookstores
 
-## 🚀 Project Overview
+<!-- Badges -->
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-3.0-0175C2?style=for-the-badge&logo=dart)](https://dart.dev/)
+[![Clean Architecture](https://img.shields.io/badge/Clean-Architecture-success?style=for-the-badge)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+[![Offline First](https://img.shields.io/badge/Offline-First-important?style=for-the-badge)]()
 
-**Library Manager** solves the challenge of managing complex book inventories by combining traditional ERP features with intelligent decision-support algorithms. It is designed to work seamlessly offline, synchronizing data with a cloud backend (Supabase) when connectivity is available.
+<!-- Tech Stack Badges -->
+[![Bloc](https://img.shields.io/badge/State-Bloc_Cubit-red?style=flat-square)]()
+[![Drift](https://img.shields.io/badge/DB-Drift_(SQLite)-003B57?style=flat-square)]()
+[![Supabase](https://img.shields.io/badge/Cloud-Supabase-3ECF8E?style=flat-square)]()
+[![OCR](https://img.shields.io/badge/AI-Tesseract_OCR-yellow?style=flat-square)]()
 
-The application primarily targets the Arabic market (`ar` locale) with a dedicated Dark Mode UI.
+<br />
 
-## ✨ Key Features
+<!-- DOWNLOAD BUTTON -->
+<!-- استبدل اللينك ده برابط جوجل درايف الخاص بيك -->
+<a href="PUT_YOUR_GOOGLE_DRIVE_LINK_HERE">
+  <img src="https://img.shields.io/badge/Download_Demo_APK-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" height="40" />
+</a>
 
-### 🧠 Business Intelligence & AI
-- **Stock Health Index**: Real-time scoring of inventory health based on shortages and stagnation.
-- **Risk Analysis Algorithms**:
-  - **Time Traps**: Identifies items unlikely to sell before their return deadline.
-  - **Dead Stock (Coma)**: Flags items with zero sales velocity over 30+ days.
-  - **Early Failures**: Detects new products performing below sales thresholds.
-- **Restock Suggestions**: Generates purchasing recommendations considering sales velocity, seasonal trends, and market saturation.
-- **Sales Forecasting**: Predictive analytics for future sales growth.
+<br />
+<br />
 
-### 📚 Inventory Management
-- **Book Tracking**: Detailed management of ISBNs, editions, grades, and subjects.
-- **Supplier Relations**: Track supplier performance, return policies, and credit balances.
-- **OCR Invoice Scanning**: Integrated **Tesseract OCR** (Arabic support) to digitize paper invoices automatically.
-- **Batch Operations**: Support for manual entry and bulk import workflows.
+The **Smart Library Manager** is an advanced, offline-first Flutter application designed to revolutionize library and bookstore management. It bridges the gap between traditional ERP systems and modern AI-driven business intelligence.
 
-### 💰 Point of Sale (POS)
-- **Transaction Processing**: Streamlined checkout for sales, returns, and exchanges.
-- **Financial Tools**: Management of discounts, dynamic pricing, and customer debts.
-- **Customer Profiles**: History tracking and credit/reservation management.
+</div>
 
-### 🔄 Architecture & Data
-- **Offline-First**: Built on **Drift (SQLite)** for instant local data access.
-- **Auto-Sync**: Background service that synchronizes local changes with **Supabase**, handling conflict resolution and data integrity.
-- **Clean Architecture**: Modular feature-based structure ensuring testability and separation of concerns.
+---
 
-## 🛠 Technology Stack
+## 📸 App Screenshots
 
-- **Framework**: Flutter (Dart 3.x)
-- **State Management**: `flutter_bloc` (Cubits)
-- **Dependency Injection**: `get_it`, `injectable`
-- **Navigation**: `go_router`
-- **Local Database**: `drift` (SQLite)
-- **Backend/Cloud**: `supabase_flutter`
-- **OCR & AI**: `flutter_tesseract_ocr`, `google_mlkit_text_recognition`
-- **UI/UX**: `flutter_screenutil`, `fl_chart`, `google_fonts`, `flutter_animate`
+<!-- استبدل الروابط دي بروابط الصور الحقيقية بتاعتك بعد ما ترفعها -->
+| Dashboard & Analytics | Point of Sale (POS) | Invoice OCR Scanning | Inventory Management |
+|:---:|:---:|:---:|:---:|
+| <img src="assets/screenshots/dashboard.png" width="200"/> | <img src="assets/screenshots/pos.png" width="200"/> | <img src="assets/screenshots/ocr.png" width="200"/> | <img src="assets/screenshots/inventory.png" width="200"/> |
+
+---
+
+## 🚀 Key Features
+
+### 🧠 AI-Powered Business Intelligence
+*   **Stock Health Index:** Real-time scoring of inventory health.
+*   **Smart Risk Analysis:**
+    *   🚨 **Time Traps:** Identifies items unlikely to sell before deadlines.
+    *   💀 **Dead Stock (Coma):** Flags items with zero sales velocity (30+ days).
+    *   📉 **Early Failures:** Detects new products performing below thresholds.
+*   **Restock Suggestions:** AI-driven purchasing recommendations based on sales velocity and seasonal trends.
+
+### 📚 Advanced Inventory & OCR
+*   **Seamless Digitization:** Integrated **Tesseract OCR** (Arabic support) to scan paper invoices and auto-fill data.
+*   **Supplier Relations:** Track performance, return policies, and credit balances.
+*   **Batch Operations:** Bulk import/export capabilities.
+
+### 💰 Professional Point of Sale (POS)
+*   **Streamlined Checkout:** Fast processing for sales, returns, and exchanges.
+*   **Dynamic Pricing:** Manage discounts and customer debts on the fly.
+*   **Customer Profiles:** Comprehensive history tracking and credit management.
+
+### 🔄 Robust Architecture
+*   **Offline-First Core:** Built on **Drift (SQLite)** ensuring 100% functionality without internet.
+*   **Auto-Sync Engine:** Background service that synchronizes local changes with **Supabase** when connectivity is restored.
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technology |
+|:--- |:--- |
+| **Framework** | Flutter (Dart 3.x) |
+| **State Management** | `flutter_bloc` (Cubits) |
+| **Architecture** | Clean Architecture (Feature-First) |
+| **DI** | `get_it`, `injectable` |
+| **Local Database** | `drift` (SQLite) |
+| **Remote Backend** | `supabase_flutter` |
+| **AI & OCR** | `flutter_tesseract_ocr`, `google_mlkit` |
+| **UI/UX** | `flutter_screenutil`, `fl_chart`, `google_fonts`, `flutter_animate` |
+
+---
 
 ## 📂 Project Structure
 
-The project follows a **Feature-First Clean Architecture**:
+The project follows a scalable **Feature-First Clean Architecture**:
 
 ```text
 lib/
-├── app/                  # App configuration, routing (GoRouter), and DI setup
-├── core/                 # Shared infrastructure
-│   ├── database/         # Drift database schema and DAOs
-│   ├── services/         # Sync, OCR, and background workers
-│   ├── theme/            # AppTheme (Dark Mode configuration)
-│   └── utils/            # Helpers for math, formatting, and file handling
-├── features/             # Business features (Clean Architecture layers)
-│   ├── auth/             # Authentication & Licensing
-│   ├── dashboard/        # Main navigation shell
-│   ├── inventory/        # Book & Supplier management
-│   ├── invoices/         # Invoice scanning & processing
-│   ├── operations/       # Expenses & Reservations
-│   ├── relations/        # Customer management
-│   ├── reports/          # BI logic, risk analysis, and charts
-│   └── sales/            # POS & Cart functionality
-└── main.dart             # Entry point & Initialization
-```
-
-## ⚙️ Setup & Usage
-
-### Prerequisites
-- **Flutter SDK**: (Version compatible with `pubspec.yaml`, typically stable)
-- **Supabase Account**: Required for the cloud backend.
-- **Tesseract Data**: Arabic training data (`ara.traineddata`) in `assets/tessdata/`.
-
-### Configuration
-1.  **Environment Variables**:
-    Ensure `lib/core/constants/app_constants.dart` is configured with your Supabase URL and Anon Key.
-
-2.  **Dependencies**:
-    ```bash
-    flutter pub get
-    ```
-
-3.  **Code Generation**:
-    Run `build_runner` to generate files for Drift, Injectable, and JSON serialization:
-    ```bash
-    dart run build_runner build --delete-conflicting-outputs
-    ```
-
-### Running the App
-```bash
+├── app/                  # App configuration & Routing
+├── core/                 # Shared Kernel (Theme, Errors, Utils)
+│   ├── database/         # Drift Schema & DAOs
+│   └── services/         # Sync, OCR, & Background Workers
+├── features/             # Modular Features
+│   ├── dashboard/        # BI & Analytics
+│   ├── inventory/        # Stock Logic
+│   ├── invoices/         # OCR Scanning
+│   ├── sales/            # POS System
+│   └── ...
+└── main.dart             # Entry Point
+⚙️ Setup & Installation
+Clone the repository:
+code
+Bash
+git clone https://github.com/amrloulah-dev/smart-library-manager.git
+Install Dependencies:
+code
+Bash
+flutter pub get
+Run Code Generation:
+code
+Bash
+dart run build_runner build --delete-conflicting-outputs
+Run the App:
+code
+Bash
 flutter run
+📝 Note on Security
+Note: API Keys (Supabase/Azure) have been removed for security purposes. If you want to run this project, please provide your own keys in lib/core/constants/.
+<div align="center">
+Developed with ❤️ by <a href="https://github.com/amrloulah-dev">Amr Loulah</a>
+</div>
 ```
-
-## 📝 Notes & Limitations
-
-- **Theme**: The application is strictly **Dark Mode** (`AppTheme.darkTheme`).
-- **Localization**: The default and primary locale is **Arabic (`ar`)**.
-- **OCR**: Requires the `ara.traineddata` file to be present in the device assets for Arabic text recognition to function.
-- **Sync**: The `SupabaseSyncService` is designed to run on app start and connectivity changes; ensure network permissions are granted.
-
-## 🔮 Future Considerations
-
-- **Azure Integration**: Architecture allows for plugging in Azure Cognitive Services for enhanced OCR/Analysis.
-- **Multi-Branch Support**: Database schemas include `libraryId`, paving the way for multi-tenant deployments.

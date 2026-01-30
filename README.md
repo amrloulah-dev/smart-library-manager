@@ -119,6 +119,8 @@ flutter run
 📝 Note on Security
 Note: API Keys (Supabase/Azure) have been removed for security purposes. If you want to run this project, please provide your own keys in lib/core/constants/.
 <div align="center">
+<div align="center">
 Developed with ❤️ by <a href="https://github.com/amrloulah-dev">Amr Loulah</a>
 </div>
+```
 ```

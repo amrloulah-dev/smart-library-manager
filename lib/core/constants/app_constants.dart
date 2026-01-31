@@ -1,8 +1,9 @@
-
 class AppConstants {
   // Supabase Configuration
-  // TODO: Replace with actual URL and Anon Key
-  static const String supabaseUrl = 'https://uxaopmrfxtbivqpxruym.supabase.co';
-  static const String supabaseAnonKey =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV4YW9wbXJmeHRiaXZxcHhydXltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyMjQxNTgsImV4cCI6MjA4MDgwMDE1OH0.C8FTbk9WO9V1cvRdI3XI0NTiiE2-Aq42PS4TMVMLSOQ';
+  // NOTE: Keys are hidden for security reasons.
+  // In a production app, use environment variables (.env).
+
+  static const String supabaseUrl = 'YOUR_SUPABASE_URL_HERE';
+
+  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY_HERE';
 }

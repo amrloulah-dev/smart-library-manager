@@ -96,9 +96,20 @@ lib/
 │   ├── sales/            # POS System
 │   └── ...
 └── main.dart             # Entry Point
-
-
 ```
+⚙️ Setup & Installation
+1. Clone the repository:
+  git clone https://github.com/amrloulah-dev/smart-library-manager.git
+2. Install Dependencies:
+  flutter pub get
+3.Run Code Generation:
+  dart run build_runner build --delete-conflicting-outputs
+4. Run the App:
+  flutter run
+
+📝 Note on Security
+Note: API Keys (Supabase/Azure) have been removed for security purposes. If you want to run this project, please provide your own keys in lib/core/constants/.
+
 <div align="center">
 Developed with ❤️ by <a href="https://github.com/amrloulah-dev">Amr Loulah</a>
 </div>

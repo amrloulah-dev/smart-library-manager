@@ -74,7 +74,7 @@ The **Smart Library Manager** is an advanced, offline-first Flutter application 
 | **DI** | `get_it`, `injectable` |
 | **Local Database** | `drift` (SQLite) |
 | **Remote Backend** | `supabase_flutter` |
-| **AI & OCR** | `flutter_tesseract_ocr`, `google_mlkit` |
+| **AI & OCR** | `Azure Cognitive Services (OCR)`, `google_mlkit` |
 | **UI/UX** | `flutter_screenutil`, `fl_chart`, `google_fonts`, `flutter_animate` |
 
 ---

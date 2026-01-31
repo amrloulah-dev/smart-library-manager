@@ -13,8 +13,6 @@
 [![Bloc](https://img.shields.io/badge/State-Bloc_Cubit-red?style=flat-square)]()
 [![Drift](https://img.shields.io/badge/DB-Drift_(SQLite)-003B57?style=flat-square)]()
 [![Supabase](https://img.shields.io/badge/Cloud-Supabase-3ECF8E?style=flat-square)]()
-[![OCR](https://img.shields.io/badge/AI-Tesseract_OCR-yellow?style=flat-square)]()
-
 <br />
 
 <!-- DOWNLOAD BUTTON -->
@@ -97,3 +95,8 @@ lib/
 │   ├── sales/            # POS System
 │   └── ...
 └── main.dart             # Entry Point
+
+<div align="center">
+Developed with ❤️ by <a href="https://github.com/amrloulah-dev">Amr Loulah</a>
+</div>
+```

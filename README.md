@@ -18,8 +18,7 @@
 <br />
 
 <!-- DOWNLOAD BUTTON -->
-<!-- استبدل اللينك ده برابط جوجل درايف الخاص بيك -->
-<a href="PUT_YOUR_GOOGLE_DRIVE_LINK_HERE">
+<a href="https://drive.google.com/drive/folders/1XCZH4j01MpMJBykdbk25tXJMt0xC_viE?usp=drive_link" target="_blank">
   <img src="https://img.shields.io/badge/Download_Demo_APK-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" height="40" />
 </a>
 
@@ -34,10 +33,9 @@ The **Smart Library Manager** is an advanced, offline-first Flutter application 
 
 ## 📸 App Screenshots
 
-<!-- استبدل الروابط دي بروابط الصور الحقيقية بتاعتك بعد ما ترفعها -->
 | Dashboard & Analytics | Point of Sale (POS) | Invoice OCR Scanning | Inventory Management |
 |:---:|:---:|:---:|:---:|
-| <img src="assets/screenshots/dashboard.png" width="200"/> | <img src="assets/screenshots/pos.png" width="200"/> | <img src="assets/screenshots/ocr.png" width="200"/> | <img src="assets/screenshots/inventory.png" width="200"/> |
+| <img src="assets/screenshots/Dashboard.png" width="200"/> | <img src="assets/screenshots/POS.png" width="200"/> | <img src="assets/screenshots/OCR.png" width="200"/> | <img src="assets/screenshots/Inventory.png" width="200"/> |
 
 ---
 
@@ -99,28 +97,3 @@ lib/
 │   ├── sales/            # POS System
 │   └── ...
 └── main.dart             # Entry Point
-⚙️ Setup & Installation
-Clone the repository:
-code
-Bash
-git clone https://github.com/amrloulah-dev/smart-library-manager.git
-Install Dependencies:
-code
-Bash
-flutter pub get
-Run Code Generation:
-code
-Bash
-dart run build_runner build --delete-conflicting-outputs
-Run the App:
-code
-Bash
-flutter run
-📝 Note on Security
-Note: API Keys (Supabase/Azure) have been removed for security purposes. If you want to run this project, please provide your own keys in lib/core/constants/.
-<div align="center">
-<div align="center">
-Developed with ❤️ by <a href="https://github.com/amrloulah-dev">Amr Loulah</a>
-</div>
-```
-```

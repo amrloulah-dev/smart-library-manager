@@ -96,7 +96,8 @@ lib/
 │   └── ...
 └── main.dart             # Entry Point
 
+
+```
 <div align="center">
 Developed with ❤️ by <a href="https://github.com/amrloulah-dev">Amr Loulah</a>
 </div>
-```

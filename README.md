@@ -13,6 +13,7 @@
 [![Bloc](https://img.shields.io/badge/State-Bloc_Cubit-red?style=flat-square)]()
 [![Drift](https://img.shields.io/badge/DB-Drift_(SQLite)-003B57?style=flat-square)]()
 [![Supabase](https://img.shields.io/badge/Cloud-Supabase-3ECF8E?style=flat-square)]()
+[![Azure OCR](https://img.shields.io/badge/AI-Azure_OCR-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/)
 <br />
 
 <!-- DOWNLOAD BUTTON -->
